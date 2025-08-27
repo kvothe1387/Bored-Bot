@@ -24,9 +24,10 @@ Check out the live application: [BoredBot](https://kvothe1387.github.io/Bored-Bo
 
 ## 📱 Screenshots
 
-<img src="./screenshots/screenshot1.png" height="300" width="300">
-<img src="./screenshots/screenshot2.png" height="300" width="300">
-<img src="./screenshots/screenshot3.png" height="300" width="300">
+<img src="./screenshots/screenshot1.png" height="250" width="250">
+<img src="./screenshots/screenshot2.png" height="250" width="250">
+<img src="./screenshots/screenshot3.png" height="250" width="250">
+<img src="./screenshots/screenshot4.png" height="250" width="250">
 
 ## ⚡ Quick Start
 
