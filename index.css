@@ -130,6 +130,117 @@ button:active {
   font-style: italic;
 }
 
+/* Dynamic styling */
+.activity-appear {
+  animation: slideInFade .6s ease-out;
+}
+
+.button-clicked {
+  transform: scale(.95);
+  transition: transform .1s ease;
+}
+
+.container-shake {
+  animation: shake .5s ease-in-out;
+}
+
+.activity-glow {
+  background: linear-gradient(45deg, rgba(102, 126, 234, 0.2), rgba(118, 75, 162, 0.2));
+  box-shadow: 0 0 20px rgba(102, 126, 234, 0.3);
+  border-color: rgba(102, 126, 234, 0.6);
+}
+
+/* Keyframe animations */
+@keyframes slideInFade {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-5px);
+  }
+
+  75% {
+    transform: translateX(5px);
+  }
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.pulse-animation {
+  animation: pulse 2s infinite;
+}
+
+/* Dynamic activity type styling */
+.type-social {
+  background: linear-gradient(45deg, rgba(255, 107, 107, 0.2), rgba(255, 99, 132, 0.2));
+  border-color: rgba(255, 107, 107, 0.6);
+}
+
+.type-recreational {
+  background: linear-gradient(45deg, rgba(54, 215, 183, 0.2), rgba(32, 201, 151, 0.2));
+  border-color: rgba(54, 215, 183, 0.6);
+}
+
+.type-education {
+  background: linear-gradient(45deg, rgba(255, 206, 84, 0.2), rgba(255, 193, 7, 0.2));
+  border-color: rgba(255, 206, 84, 0.6);
+}
+
+.type-diy {
+  background: linear-gradient(45deg, rgba(255, 159, 67, 0.2), rgba(255, 140, 0, 0.2));
+  border-color: rgba(255, 159, 67, 0.6);
+}
+
+.type-charity {
+  background: linear-gradient(45deg, rgba(214, 48, 49, 0.2), rgba(192, 57, 43, 0.2));
+  border-color: rgba(214, 48, 49, 0.6);
+}
+
+.type-cooking {
+  background: linear-gradient(45deg, rgba(162, 155, 254, 0.2), rgba(116, 185, 255, 0.2));
+  border-color: rgba(162, 155, 254, 0.6);
+}
+
+.type-relaxation {
+  background: linear-gradient(45deg, rgba(199, 146, 234, 0.2), rgba(148, 187, 233, 0.2));
+  border-color: rgba(199, 146, 234, 0.6);
+}
+
+.type-music {
+  background: linear-gradient(45deg, rgba(255, 118, 117, 0.2), rgba(253, 121, 168, 0.2));
+  border-color: rgba(255, 118, 117, 0.6);
+}
+
+.type-busywork {
+  background: linear-gradient(45deg, rgba(156, 136, 255, 0.2), rgba(164, 176, 190, 0.2));
+  border-color: rgba(156, 136, 255, 0.6);
+}
+
 /* Floating animation for some fun */
 @keyframes float {
 
